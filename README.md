@@ -1,6 +1,6 @@
 # PyEnigmaMachine
 
-This is a simple implementation of the enigma machine in python. It should be mostly correct though double step sequence is not implemeneted.
+This is a simple implementation of the Enigma Machine in python. It should be mostly correct though double step sequence is not implemeneted. I used standard settings from the German Railway (Rocket) model.
 
 Usage is as following:
 ```python
@@ -27,7 +27,7 @@ enigmaMachineB.addWheel("JVIUBHTCDYAKEQZPOSGXNRMWFL", "V")
 #Add reflector
 enigmaMachineB.addReflector("QYHOGNECVPUZTFDJAXWMKISRBL")
 
-
+#Communication
 message = "iloveyou"
 print("Message: " + message)
 
