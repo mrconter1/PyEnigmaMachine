@@ -1,6 +1,6 @@
 # PyEnigmaMachine
 
-This is a simple implementation of the Enigma Machine in python. It should be mostly correct though double step sequence is not implemeneted. I used standard settings from the German Railway (Rocket) model.
+This is a simple implementation of the Enigma Machine in python. It should be mostly correct though double step sequence is not implemeneted. I used standard settings from the German Railway (Rocket) model that was introduced in 1941.
 
 Usage is as following:
 ```python
