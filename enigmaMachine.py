@@ -38,28 +38,12 @@ class plugBoard:
           
 class reflectorWheel:
     
-     def __init__(self, settings = ""):
+     def __init__(self, settings):
      
           self.rotorWires = []
           self.numOfSymbols = 26
           
-          if settings == "":
-               self.scrambleConnections()
-          else:
-               self.readSettings(settings)
-               
-     #Scramble connection
-     def scrambleConnections(self):
-          '''for i in range(self.numOfSymbols):
-               foundUnique = 0
-               while not foundUnique:
-                    foundUnique = 1
-                    randomMatch = random.randint(0, self.numOfSymbols)
-                    for wire in self.rotorWires:
-                         if wire[0] == randomMatch:
-                              foundUnique = 0
-               self.rotorWires.append([i, randomMatch])
-               self.rotorWires.append([randomMatch, i])'''
+          self.readSettings(settings)
                
      #Reads in a settings string
      def readSettings(self, settingsStr):
