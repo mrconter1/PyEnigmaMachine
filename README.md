@@ -3,7 +3,7 @@
 This is a simple implementation of the enigma machine in python. It should be mostly correct though double step sequence is not implemeneted.
 
 Usage is as following:
-'''
+```
 #Create Machine A
 enigmaMachineA = enigmaMachine()
 
@@ -36,4 +36,4 @@ print("Encrypted Message: " + encryptedMessage)
 
 decryptedMessage = enigmaMachineB.decryptStr(encryptedMessage)
 print("Decrypted Message: " + decryptedMessage)
-'''
+```
